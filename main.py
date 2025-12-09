@@ -11,9 +11,9 @@ CORS(app)
 def get_db():
     return mysql.connector.connect(
         host="localhost",
-        user="root",
-        password="YOUR_DB_PASSWORD",
-        database="YOUR_DB_NAME"
+        user="bw_user",
+        password="StrongPassword123",
+        database="certificates"
     )
 
 # -----------------------------
